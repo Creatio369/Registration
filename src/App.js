@@ -23,7 +23,7 @@ const dietaryRequirementsOptions = [
   { label: "Nut Allergy", value: "1605b692-2687-43d7-a15d-15c34ab71a76" },
   { label: "Halal", value: "609a2269-d1c3-4b62-8edb-caf19e8d5fd2" },
   { label: "No Beef or Pork", value: "3334e14e-76df-4267-88ba-ef797b138411" },
-  { label: "Other (free text)", value: "d956b063-7a2f-4c05-b647-1f00e5b49e4b" },
+  { label: "Other (free text)", value: "Other (free text)" },
 ];
 
 const EventRegistrationForm = () => {
@@ -237,7 +237,7 @@ const EventRegistrationForm = () => {
                 variant="outlined"
                 margin="normal"
                 label="Dietary Requirements"
-                required
+                required={!formData.dietaryRequirements}
               />
             )}
           />

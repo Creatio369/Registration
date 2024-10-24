@@ -1,5 +1,5 @@
 {
-  "homepage": "https://prabhat9098.github.io/WebForm_V3",
+  "homepage": "https://Creatio369.github.io/Registration",
   "name": "event-registration",
   "version": "0.1.0",
   "private": true,
@@ -44,7 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "tailwindcss": "^3.4.10"
   }
 }
